@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+.projetos li a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "NeueMachina";
+  src: url("../fonts/NeueMachina-Regular.otf");
+}
+
+.main {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+
+.main::before {
+  content: " ";
+  background-image: url("/assets/img/back/bcTop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 100vh;
+  height: 60vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main::after {
+  content: " ";
+  background-image: url("/assets/img/back/bcBot.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  bottom: -250px;
+  right: 0;
+  z-index: -1;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    max-width: 1024px;
+    margin: 1rem auto;
+  }
+
+  .main::before {
+    width: 70vh;
+  }
+  .main::after {
+    width: 90vh;
+  }
+}

@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/fonts/NeueMachina-Regular.otf" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/acordeon.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/projetos.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+
     <title>Portifólio</title>
-</head>
-<body>
-    ola mundo
-</body>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img src="./assets/img/eu.jpg" alt="Foto Ivan" class="foto" />
+        <h1 class="titulo">Olá, <br />eu sou Ivan Dias</h1>
+        <div class="information">
+          <p class="job">Analista de planjamento digital</p>
+          <p class="location">Curitiba - PR</p>
+          <p class="phone">
+            <a href="wa.me/41984204961" target="_blank">(41) 9 8420-4961</a>
+          </p>
+          <p class="email">
+            <a href="mailto:Mangakaivan@gmail.com" target="_blank"
+              >Mangakaivan@gmail.com</a
+            >
+          </p>
+        </div>
+      </header>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Idiomas</h2></button>
+        <div class="content">
+          <ul class="languages">
+            <li>Português</li>
+            <li>Ingles</li>
+            <li>Espanhol</li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Projetos</h2></button>
+        <div class="content">
+          <ul class="projetos">
+            <li>
+              <h3 class="titulo github">Criando um App de lembrete</h3>
+              <a href="https://github.com/ivan-dias-dev/ocean" target="_blank"
+                >https://github.com/ivan-dias-dev/ocean</a
+              >
+            </li>
+            <li>
+              <h3 class="titulo github">Criando um App de lembrete</h3>
+              <a href="https://github.com/ivan-dias-dev/zana" target="_blank"
+                >https://github.com/ivan-dias-dev/zana</a
+              >
+            </li>
+            <li>
+              <h3 class="titulo github">Criando um App de lembrete</h3>
+              <a
+                href="
+              https://github.com/ivan-dias-dev/api"
+                target="_blank"
+                >https://github.com/ivan-dias-dev/api</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Experiência Profissional</h2>
+        </button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="titulo">
+                Desenvolvedor de bot's e integracão de plataformas
+              </h3>
+              <p class="period">jan 2023 - Current</p>
+              <p>
+                Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
+                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
+                soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Skills</h2>
+        </button>
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>Ferramentas:</h3>
+              <ul>
+                <li><img src="./assets/img/icons/node.svg" alt="Node" title="Node" /></li>
+                <li><img src="./assets/img/icons/js.svg" alt="JavaScript" title="JavaScript" /></li>
+                <li><img src="./assets/img/icons/vue.svg" alt="Vue" title="Vue" /></li>
+                <li><img src="./assets/img/icons/net.svg" alt=".Net" title=".Net" /></li>
+                <li><img src="./assets/img/icons/cs.svg" alt="c#" title="C#" /></li>
+                <li><img src="./assets/img/icons/github.svg" alt="github" title="Github" /></li>    
+                <li><img src="./assets/img/icons/html.svg" alt="html" title="HTML" /></li>     
+                <li><img src="./assets/img/icons/css.svg" alt="css" title="CSS" /></li>   
+                <li><img src="./assets/img/icons/mongo.svg" alt="mongo" title="Mongo" /></li> 
+                              
+              </ul>
+            </section>
+            <section class="personal">
+              <h3>Pessoais:</h3>
+              <ul>
+                <li>Liderança</li>
+                <li>Comunicação</li>
+                <li>Organização</li>
+                <li>Trabalho em equipe</li>
+                <li>Flexibilidade</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/acordeon.js"></script>
+  </body>
 </html>
