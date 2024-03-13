@@ -1,10 +1,10 @@
 {
-  "name": "José Renato Felix",
-  "photo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/assets/img/photo.jpeg",
+  "name": "Ivan Dias",
+  "photo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/projeto_base/assets/img/eu.jpg",
   "job": "Desenvolvedor FullStack",
-  "location": "Jacareí - SP",
-  "phone": "(12) 99173-0737",
-  "email": "joserenatofelix@gmail.com",
+  "location": "Curitiba - PR",
+  "phone": "(41) 98420-4961",
+  "email": "mangakaivan@gmail.com",
   "skills": {
     "hardSkills": [
       {
