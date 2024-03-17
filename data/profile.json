@@ -34,10 +34,6 @@
       {
         "name": "Mongodb",
         "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
