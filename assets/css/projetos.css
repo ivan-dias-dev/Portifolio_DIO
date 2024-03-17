@@ -16,7 +16,7 @@
   margin: 1rem 0;
 }
 
-.projetos li .titulo {
+.projetos li h3 {
   font-size: 1.25rem;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,7 @@
   margin: 0;
   margin-bottom: .5rem;
 }
-.projetos li .titulo.github::before {
+.projetos li h3.github::before {
   content: "";
   display: inline-block;
   width: 1.5rem;

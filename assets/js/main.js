@@ -16,36 +16,71 @@ function updateProfaleInfo(profileData) {
   let email = document.getElementById("profile.email");
   email.innerText = profileData.email;
   email.href = `mailto:${profileData.email}`;
-  
 }
 
-
-function updateSokftSkills(profileData){
-    let softSkills = document.getElementById("profile.skills.softSkills");
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(' ')
-    
+function updateSokftSkills(profileData) {
+  let softSkills = document.getElementById("profile.skills.softSkills");
+  softSkills.innerHTML = profileData.skills.softSkills
+    .map((skill) => `<li>${skill}</li>`)
+    .join(" ");
 }
-function updatehardtSkills(profileData){
-    let hardSkills = document.getElementById("profile.skills.hardSkills");
+function updatehardtSkills(profileData) {
+  let hardSkills = document.getElementById("profile.skills.hardSkills");
 
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
+  hardSkills.innerHTML = profileData.skills.hardSkills
+    .map(
+      (skill) => `
     <li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/></li>
-    `).join(' ')
-  
+    `
+    )
+    .join(" ");
 }
-function updateLanguages(profileData){
+function updateLanguages(profileData) {
   let languages = document.getElementById("languages");
-  console.log(profileData.languages)
-  languages.innerHTML = profileData.languages.map(language => `
+  languages.innerHTML = profileData.languages
+    .map(
+      (language) => `
   <li>${language}</li>
-  `).join(' ')
-
+  `
+    )
+    .join(" ");
 }
 
+function updatePortifolio(profileData) {
+  const portifolio = document.getElementById("profile.portifolio");
+  portifolio.innerHTML = profileData.portfolio
+    .map((projeto) => {
+      return `
+    <li>
+     <h3 ${projeto.github ? 'class="github"' : ""} >${projeto.name}</h3>
+      <a href="${projeto.url}" target="_blank" >${projeto.url}</a>
+   </li>
+  `;
+    })
+    .join("");
+}
+
+function updateProfessionalExp(profileData) {
+  let data = profileData.professionalExperience;
+  let experience = document.getElementById("profile.professionalExp");
+  experience.innerHTML = data
+    .map((exp) => {
+      return `
+    <li>
+        <h3 class="titulo">${exp.name}</h3>
+        <p class="period" >${exp.period}</p>
+        <p">${exp.description} </p>
+  </li>
+  `;
+    })
+    .join("");
+}
 (async function () {
   const profileData = await fetcjProfileData();
   updateProfaleInfo(profileData);
-  updateSokftSkills(profileData)
-  updatehardtSkills(profileData)
-  updateLanguages(profileData)
+  updateSokftSkills(profileData);
+  updatehardtSkills(profileData);
+  updateLanguages(profileData);
+  updatePortifolio(profileData);
+  updateProfessionalExp(profileData);
 })();
