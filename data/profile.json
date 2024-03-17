@@ -55,14 +55,21 @@
   ],
   "portfolio": [
     {
-      "name": "Criando uma Pokedex com a DIO",
-      "url": "joserenatofelix-pokedex.netlify.app/",
+      "name": "Aplicação web para administração de vendas",
+      "url": "https://github.com/ivan-dias-dev/ocean",
       "github": true
     },
     {
-      "name": "Código deste Portfólio",
-      "url": "https://github.com/joserenatofelix/js-developer-portfolio",
-      "github": true
+      "name": "Pokedex feita em um curso na DIO, integrando API's",
+      "url": "https://github.com/ivan-dias-dev/js-developer-pokedex",
+      "github": true,
+      "certificado": "https://www.dio.me/certificate/7A42C98C/share"
+    },
+    {
+      "name": "Pokedex feita em um curso na DIO, integrando API's",
+      "url": "https://github.com/ivan-dias-dev/js-developer-pokedex",
+      "github": true,
+      "certificado": "https://www.dio.me/certificate/7A42C98C/share"
     }
   ],
   "professionalExperience": [
