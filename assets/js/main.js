@@ -21,7 +21,25 @@ function updateProfaleInfo(profileData) {
   
 }
 
+
+function updateSokftSkills(profileData){
+    let softSkills = document.getElementById("profile.skills.softSkills");
+    console.log(profileData.skills.softSkills)
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(' ')
+    
+}
+function updatehardtSkills(profileData){
+    let hardSkills = document.getElementById("profile.skills.hardSkills");
+    console.log(profileData.skills.hardSkills)
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
+    <li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/></li>
+    `).join(' ')
+  
+}
+
 (async function () {
   const profileData = await fetcjProfileData();
   updateProfaleInfo(profileData);
+  updateSokftSkills(profileData)
+  updatehardtSkills(profileData)
 })();
