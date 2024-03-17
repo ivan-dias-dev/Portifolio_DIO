@@ -9,39 +9,35 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/css.svg"
       },
       {
         "name": "JS",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/js.svg"
       },
       {
         "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/node.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "Vue",
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/vue.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "C#",
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/dd87e24afcc6a6e9eb84a870942e747da05bf894/assets/img/icons/cs.svg"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/react.png"
+        "name": ".Net",
+        "logo": "https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/7f7adadd0c91f0d0d4863c6697b678116835ef0d/assets/img/icons/net.svg"
       },
       {
         "name": "Mongodb",
         "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/joserenatofelix/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
