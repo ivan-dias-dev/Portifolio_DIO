@@ -55,36 +55,33 @@
   ],
   "portfolio": [
     {
-      "name": "Criando uma Pokedex com a DIO",
-      "url": "joserenatofelix-pokedex.netlify.app/",
+      "name": "Aplicação web para administração de vendas",
+      "url": "https://github.com/ivan-dias-dev/ocean",
       "github": true
     },
     {
-      "name": "Código deste Portfólio",
-      "url": "https://github.com/joserenatofelix/js-developer-portfolio",
+      "name": "Aplicação web de ecommerce",
+      "url": "https://github.com/ivan-dias-dev/zana",
       "github": true
+    },
+    {
+      "name": "Pokedex feita em um curso na DIO, integrando API's",
+      "url": "https://github.com/ivan-dias-dev/js-developer-pokedex",
+      "github": true,
+      "certificado": "https://www.dio.me/certificate/7A42C98C/share"
+    },
+    {
+      "name": "Pokedex feita em um curso na DIO, integrando API's",
+      "url": "https://github.com/ivan-dias-dev/js-developer-pokedex",
+      "github": true,
+      "certificado": "https://www.dio.me/certificate/7A42C98C/share"
     }
   ],
   "professionalExperience": [
     {
-      "name": "TOTVS SA",
-      "period": "10/2023 - até o momento",
-      "description": "Desenvolvimento, criação de novas funcionalidades e resolução de bugs em aplicações web e mobile escritas em Angular, PO UI, typescript e java com spring boot com apis e integração com banco de dados postgreSql."
-    },
-    {
-      "name": "SOLUTIC CONSULTORIA E ASSESSORIA LTDA",
-      "period": "04/2023 - até 10/2023",
-      "description": "Responsavél pela criação de telas relacionadas ao compartilhamento de dados, balanceamento."
-    },
-    {
-      "name": "TO Brasil Consultoria em Tecnologia da Informacao Ltda.",
-      "period": "11/2022 até 04/2023",
-      "description": "Na sustentação do banco Santander, manutenção de aplicações front e bak-end."
-    },
-    {
-      "name": "Security Dynamics Tecnologia e Sistemas Ltda.",
-      "period": "12/2019 até 11/2022",
-      "description": "Correções em aplicações Front-ent."
+      "name": "Assistente de planejamento digital / Bellinati Perez",
+      "period": "2020 até o momento",
+      "description": "Integração fornecedores digitais, implantação e manutenção fluxo de atendimento via chat bot com integração as API's,atendimnto de chamados, suporte e treinamento, "
     }
   ]
 }
