@@ -25,7 +25,7 @@ a {
 
 .main::before {
   content: " ";
-  background-image: url("assets/img/back/bcTop.svg");
+  background-image: url("https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/projeto_base/assets/img/back/bcTop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -39,7 +39,7 @@ a {
 
 .main::after {
   content: " ";
-  background-image: url("assets/img/back/bcBot.svg");
+  background-image: url("https://raw.githubusercontent.com/ivan-dias-dev/Portifolio_DIO/projeto_base/assets/img/back/bcBot.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
